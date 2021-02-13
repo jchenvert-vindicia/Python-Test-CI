@@ -22,7 +22,7 @@ class TestBaseMath(unittest.TestCase):
     
     
     def test_failing_add(self):
-        self.assertEqual(base_math.add(4, 4), 7, "Should be 8")
+        self.assertEqual(base_math.add(4, 4), 8, "Should be 8")
 
 
 def main():
